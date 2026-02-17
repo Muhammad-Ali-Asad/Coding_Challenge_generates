@@ -44,6 +44,10 @@ We recommend using **Render** or **Railway** for the backend as they support Doc
     - Railway might try to deploy the root. You need to configure it to deploy the `backend` folder.
     - Go to **Settings** -> **Root Directory** and set it to `/backend`.
 5.  **Variables**: Add your environment variables in the **Variables** tab.
+6.  **Public Domain (Important)**:
+    -   Go to **Settings** -> **Networking**.
+    -   Under **Public Networking**, click **Generate Domain**.
+    -   Copy this URL (e.g., `https://web-production-xxxx.up.railway.app`). **This is your `VITE_API_URL`**.
 
 ## 2. Frontend Deployment (React + Vite)
 
